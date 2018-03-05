@@ -1,5 +1,7 @@
 # StudentManagement
 
+MongoDB, Express, Angular, and Node.js. MongoDB and Express on Node.js environment used as backend and Angular 5 used as the front end.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
 ## Development server

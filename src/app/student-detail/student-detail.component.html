@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>{{ student.grade }}</h1>
+  <dl class="list">
+    <dt>Roll Number</dt>
+    <dd>{{ student.rollNo }}</dd>
+    <dt>Student's Name</dt>
+    <dd>{{ student.studentName }}</dd>
+    <dt>Address</dt>
+    <dd>{{ student.address }}</dd>
+    <dt>Price</dt>
+    <dd>{{ student.price }}</dd>
+    <dt>Update Date</dt>
+    <dd>{{ student.updated_at }}</dd>
+  </dl>
+  <div class="row">
+    <div class="col-md-12">
+      <a [routerLink]="['/student-edit', student._id]" class="btn btn-success">EDIT</a>
+      <button class="btn btn-danger" type="button" (click)="deleteStudent(student._id)">DELETE</button>
+    </div>
+  </div>
+</div>
