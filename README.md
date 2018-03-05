@@ -4,6 +4,15 @@ MongoDB, Express, Angular, and Node.js. MongoDB and Express on Node.js environme
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
+Add Student:    
+![alt text](https://github.com/comrench/StudentManagement/blob/master/sample/StudentAdd.jpg)
+
+Student List:    
+![alt text](https://github.com/comrench/StudentManagement/blob/master/sample/StudentList.jpg)
+
+Show Details of student:  
+![alt text](https://github.com/comrench/StudentManagement/blob/master/sample/ShowDetails.jpg)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
